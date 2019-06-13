@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75E9E04D22B0A953007FBBF2 /* QuizObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9E04C22B0A953007FBBF2 /* QuizObject.swift */; };
+		75E9E04F22B0A9A3007FBBF2 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9E04E22B0A9A3007FBBF2 /* QuizManager.swift */; };
+		75E9E07322B2323E007FBBF2 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75E9E07222B2323E007FBBF2 /* correct.wav */; };
+		75E9E07522B2324D007FBBF2 /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75E9E07422B2324D007FBBF2 /* wrong.wav */; };
 		972A72B12056F06C0059EF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A72B02056F06C0059EF4A /* AppDelegate.swift */; };
 		972A72B32056F06C0059EF4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A72B22056F06C0059EF4A /* ViewController.swift */; };
 		972A72B62056F06C0059EF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972A72B42056F06C0059EF4A /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75E9E04C22B0A953007FBBF2 /* QuizObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizObject.swift; sourceTree = "<group>"; };
+		75E9E04E22B0A9A3007FBBF2 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		75E9E07222B2323E007FBBF2 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = ../../../../../../Downloads/correct.wav; sourceTree = "<group>"; };
+		75E9E07422B2324D007FBBF2 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wrong.wav; path = ../../../../../../Downloads/wrong.wav; sourceTree = "<group>"; };
 		972A72AD2056F06C0059EF4A /* EnhanceQuizStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnhanceQuizStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972A72B02056F06C0059EF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		972A72B22056F06C0059EF4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,10 +66,14 @@
 			children = (
 				972A72B02056F06C0059EF4A /* AppDelegate.swift */,
 				972A72B22056F06C0059EF4A /* ViewController.swift */,
+				75E9E04C22B0A953007FBBF2 /* QuizObject.swift */,
+				75E9E04E22B0A9A3007FBBF2 /* QuizManager.swift */,
 				972A72B42056F06C0059EF4A /* Main.storyboard */,
 				972A72B72056F06C0059EF4A /* Assets.xcassets */,
 				972A72B92056F06C0059EF4A /* LaunchScreen.storyboard */,
 				972A72BC2056F06C0059EF4A /* Info.plist */,
+				75E9E07222B2323E007FBBF2 /* correct.wav */,
+				75E9E07422B2324D007FBBF2 /* wrong.wav */,
 				972A72C22056F0E40059EF4A /* GameSound.wav */,
 			);
 			path = EnhanceQuizStarter;
@@ -129,6 +141,8 @@
 				972A72C32056F0E40059EF4A /* GameSound.wav in Resources */,
 				972A72BB2056F06C0059EF4A /* LaunchScreen.storyboard in Resources */,
 				972A72B82056F06C0059EF4A /* Assets.xcassets in Resources */,
+				75E9E07322B2323E007FBBF2 /* correct.wav in Resources */,
+				75E9E07522B2324D007FBBF2 /* wrong.wav in Resources */,
 				972A72B62056F06C0059EF4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E9E04F22B0A9A3007FBBF2 /* QuizManager.swift in Sources */,
+				75E9E04D22B0A953007FBBF2 /* QuizObject.swift in Sources */,
 				972A72B32056F06C0059EF4A /* ViewController.swift in Sources */,
 				972A72B12056F06C0059EF4A /* AppDelegate.swift in Sources */,
 			);
