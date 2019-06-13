@@ -171,7 +171,7 @@ class ViewController: UIViewController {
             let correctAnswer = allQuestions.question["Answer"]
             let choices = allQuestions.answer
            // check each answer and added the sound effect when pressed the corrected or incorrected answer
-           // Also, added the Lighting mode when the timer hit 0.0 the answer will NOT be counted
+           // Also, added the Lighting mode when the timer hit 0.0 the answer will NOT be counted even when you hot the right answer!
             if (sender === trueButton &&  correctAnswer == choices[0]) || (sender === falseButton && correctAnswer == choices[1]) || (sender === Question3 &&  correctAnswer == choices[2]) || (sender === Question4 &&  correctAnswer == choices[3]) {
                 trivia.correctQuestions += 1
                   questionField.text = "Correct!"
@@ -190,7 +190,7 @@ class ViewController: UIViewController {
             questionField.text = "Sorry, Timeout! Your answer isn't counted"
         }
         timer.invalidate()
-        loadNextRound(delay: 5)
+        loadNextRound(delay: 3)
     }
     
     

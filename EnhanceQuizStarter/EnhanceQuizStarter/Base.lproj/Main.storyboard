@@ -47,7 +47,7 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ATm-C8-x5v">
                                 <rect key="frame" x="0.0" y="188" width="375" height="533.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-Nx-foS">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-Nx-foS">
                                         <rect key="frame" x="0.0" y="101.5" width="320" height="30"/>
                                         <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -58,7 +58,7 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jse-Ff-xPh">
-                                        <rect key="frame" x="0.0" y="83.5" width="320" height="180"/>
+                                        <rect key="frame" x="0.0" y="70" width="320" height="180"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSn-ih-qRR">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
@@ -100,9 +100,10 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="eic-Nx-foS" firstAttribute="top" secondItem="ATm-C8-x5v" secondAttribute="top" constant="101.5" id="44H-v0-9Mz"/>
                                     <constraint firstAttribute="trailing" secondItem="eic-Nx-foS" secondAttribute="trailing" id="Dcv-lG-G7Q"/>
                                     <constraint firstItem="eic-Nx-foS" firstAttribute="leading" secondItem="ATm-C8-x5v" secondAttribute="leading" id="OU5-Ft-1Gi"/>
-                                    <constraint firstItem="jse-Ff-xPh" firstAttribute="top" secondItem="ATm-C8-x5v" secondAttribute="top" constant="83.5" id="RYk-De-Gkk"/>
+                                    <constraint firstItem="jse-Ff-xPh" firstAttribute="top" secondItem="ATm-C8-x5v" secondAttribute="top" constant="70" id="RYk-De-Gkk"/>
                                     <constraint firstItem="eic-Nx-foS" firstAttribute="width" secondItem="ATm-C8-x5v" secondAttribute="width" id="VLe-7W-6Qd"/>
                                     <constraint firstItem="CSn-ih-qRR" firstAttribute="width" secondItem="ATm-C8-x5v" secondAttribute="width" id="Yv9-fd-Shc"/>
                                     <constraint firstAttribute="trailing" secondItem="jse-Ff-xPh" secondAttribute="trailing" id="kuu-Rv-CJR"/>
