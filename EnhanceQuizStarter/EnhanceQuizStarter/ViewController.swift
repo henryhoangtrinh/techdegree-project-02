@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     var gameSound: SystemSoundID = 0
     let trivia = QuizManager()
     var allQuestions: QuizObject! = nil
-    var seconds = 20.0
+    var seconds = 15.0
     var timer = Timer()
     
     // MARK: - Outlets
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBOutlet var TimerCountdown: UILabel!
     
     func setCountdown() {
-        seconds = 20
+        seconds = 15
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(testcountdown), userInfo: nil, repeats: true)
     }
    
@@ -125,7 +125,7 @@ class ViewController: UIViewController {
     
     func displayScore() {
         // Hide the answer buttons
-        seconds = 20
+        seconds = 15
         TimerCountdown.text = "\(seconds)"
         trueButton.isHidden = true
         falseButton.isHidden = true
